@@ -37,6 +37,7 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+// GetAll product 
 app.MapGet("/api/products", async (AppDbContext db) =>
 {
     var products = await db.Products.ToListAsync();
