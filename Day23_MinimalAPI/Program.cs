@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Get the connection string from environment variable
 var connectionString =
     Environment.GetEnvironmentVariable(
         "ConnectionStrings__DefaultConnection"
