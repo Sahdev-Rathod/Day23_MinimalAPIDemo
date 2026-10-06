@@ -1,0 +1,6 @@
+@Day23_MinimalAPI_HostAddress = http://localhost:5100
+
+GET {{Day23_MinimalAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
